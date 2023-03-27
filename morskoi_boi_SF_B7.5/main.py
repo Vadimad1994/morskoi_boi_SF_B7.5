@@ -240,7 +240,7 @@ class Game:
             print("-" * 27)
             if num % 2 == 0:
                 print()
-                print("  Ходит игрок!")
+                print("  Ходит игрока!")
                 repeat = self.us.move()
             else:
                 print()
