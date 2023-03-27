@@ -232,7 +232,7 @@ class Game:
         num = 0
         while True:
             print("-" * 27)
-            print("  Доска игрок:")
+            print("  Доска игрока:")
             print(self.us.board)
             print("-" * 27)
             print("  Доска компьютера:")
@@ -240,7 +240,7 @@ class Game:
             print("-" * 27)
             if num % 2 == 0:
                 print()
-                print("  Ходит игрока!")
+                print("  Ходит игрок!")
                 repeat = self.us.move()
             else:
                 print()
